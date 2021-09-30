@@ -2,14 +2,18 @@
   "name": "tests",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "test": "jest --watch *.js"
+    "test": "jest",
+    "jest": "jest --watch *.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.2.4"
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
   }
 }
